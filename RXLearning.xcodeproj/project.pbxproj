@@ -15,6 +15,9 @@
 		D3BE8474231D098E00288C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE8472231D098E00288C82 /* LaunchScreen.storyboard */; };
 		D3BE847F231D098E00288C82 /* RXLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE847E231D098E00288C82 /* RXLearningTests.swift */; };
 		D3BE848A231D098E00288C82 /* RXLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8489231D098E00288C82 /* RXLearningUITests.swift */; };
+		D3BE8498231D0BDF00288C82 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE8497231D0BDF00288C82 /* FilterViewController.swift */; };
+		D3BE84B4231E670000288C82 /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE84B3231E670000288C82 /* TypeViewController.swift */; };
+		D3BE84B6231F9D2B00288C82 /* TypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE84B5231F9D2B00288C82 /* TypeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D3BE8485231D098E00288C82 /* RXLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BE8489231D098E00288C82 /* RXLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXLearningUITests.swift; sourceTree = "<group>"; };
 		D3BE848B231D098E00288C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BE8497231D0BDF00288C82 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		D3BE84B3231E670000288C82 /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		D3BE84B5231F9D2B00288C82 /* TypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				D3BE8466231D098B00288C82 /* AppDelegate.swift */,
 				D3BE8468231D098B00288C82 /* ViewController.swift */,
+				D3BE8497231D0BDF00288C82 /* FilterViewController.swift */,
+				D3BE84B3231E670000288C82 /* TypeViewController.swift */,
+				D3BE84B5231F9D2B00288C82 /* TypeTests.swift */,
 				D3BE846A231D098B00288C82 /* Main.storyboard */,
 				D3BE8470231D098E00288C82 /* Assets.xcassets */,
 				D3BE8472231D098E00288C82 /* LaunchScreen.storyboard */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BE846F231D098B00288C82 /* RXLearning.xcdatamodeld in Sources */,
+				D3BE84B4231E670000288C82 /* TypeViewController.swift in Sources */,
 				D3BE8469231D098B00288C82 /* ViewController.swift in Sources */,
+				D3BE84B6231F9D2B00288C82 /* TypeTests.swift in Sources */,
+				D3BE8498231D0BDF00288C82 /* FilterViewController.swift in Sources */,
 				D3BE8467231D098B00288C82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
