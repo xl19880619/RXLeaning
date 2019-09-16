@@ -81,9 +81,9 @@ class TypeViewController: UIViewController {
     }
     
     func concatUsingReduce(strings: [String]) -> String {
-        return strings.reduce("", combine: { (result, element) -> String in
-            return result + element
-        })
+//        return strings.reduce("", combine: { (result, element) -> String in
+//            return result + element
+//        })
         
         return strings.reduce("", combine: +)
     }

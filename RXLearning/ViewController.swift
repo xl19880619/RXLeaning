@@ -24,7 +24,15 @@ class ViewController: UIViewController {
         }
         print(string)
         
+        switchTest()
         
+        check1("Area should be at least 0") { (size: CGSize) -> Bool in
+            size.area >= 0
+        }
+        
+        check1("Every string starts with Hello") { (s: String) -> Bool in
+            s.hasPrefix("Hello")
+        }
 
     }
     typealias detailActionCloser = (_ node : String?) -> ()
